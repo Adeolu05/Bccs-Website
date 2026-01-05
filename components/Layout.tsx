@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
         
         {/* Logo & Brand */}
         <Link to="/" className="inline-flex items-center gap-3.5 group relative z-20">
-          <Logo size={56} />
+          <Logo size={45} />
           <div className="flex flex-col justify-center">
             <span className="text-xl font-heading font-black tracking-tighter text-white leading-none group-hover:text-blue-400 transition-colors uppercase">
               BCCS
@@ -157,7 +157,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6 mb-8">
           <div className="lg:col-span-2 md:pr-4">
             <Link to="/" className="inline-flex items-center gap-3 mb-3 group">
-               <Logo size={48} />
+               <Logo size={40} />
                <div className="flex flex-col">
                  <span className="font-heading text-lg font-black tracking-tight text-white leading-none uppercase">BCCS</span>
                  <span className="text-[9px] font-bold text-zinc-500 uppercase tracking-widest mt-0.5">Working Class Web3</span>
